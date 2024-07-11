@@ -1,0 +1,355 @@
+Problem Statement
+Food Corner home delivers vegetarian and non-vegetarian meals to its customers based on the order.
+
+A vegetarian combo costs $12 per plate and a non-vegetarian combo costs $15 per plate. Apart from the cost per plate of food, customers are also charged for home delivery based on the distance in kms from the restaurant to the delivery point. The delivery charges are as mentioned below:
+first 3km =0$
+next 3km=$1
+remaining km 2$
+Given the type of food, quantity (no. of plates) and the distance in kms from the restaurant to the delivery point, implement a program to calculate the final bill amount to be paid by a customer.
+
+The below information must be used to check the validity of the data provided by the customer: 
+
+Type of food must be 'V' for vegetarian and 'N' for non-vegetarian.
+
+Distance in kms must be greater than 0.
+
+Quantity ordered should be minimum 1.
+
+If any of the input is invalid, the bill amount should be displayed as -1.
+completed
+
+
+
+Problem Statement
+The Metro Bank provides various types of loans such as car loans, business loans and house loans to its account holders, i.e., customers.
+
+Implement a program to determine the eligible loan amount and the EMI that the bank can provide to its customers based on their salary and the loan type they expect to avail.
+
+The values required for determining the eligible loan amount and the EMI are:
+
+account number of the customer
+account balance of the customer
+salary of the customer
+loan type 
+expected loan amount
+expected no. of EMIs
+
+The following validations should be performed:
+The account number should be of 4 digits and its first digit should be 1
+
+The customer should have a minimum balance of $1000 in the account
+
+Display appropriate error messages if the validations fail.
+
+If the validations pass, determine whether the bank would provide the loan or not. 
+
+The bank would provide the loan, only if the loan amount and the number of EMIs expected by the customer is less than or equal to the loan amount and the number of EMIs decided by the bank respectively. The bank decides the eligible loan amount = 50,0000 and the number of EMIs = 36 based on the below table.
+
+
+
+Display the account number, eligible and requested loan amount and the number of EMIs if the bank provides the loan.
+
+Display an appropriate message if the bank does not provide the loan.
+
+ 
+
+Sample Input and Output
+completed
+
+
+
+
+Be it a last minute get together, a birthday party or corporate events, the "Pine Tree" Event Management Company helps you plan and execute it better and faster. Nikhil, the founder of the company wanted the Amphi Event Management System to get and display the event details from his Customers for every new order of the Company.
+
+Write a program that will get the input of the event details like name of the event, type of the event, number of people expected, a string value (Y/N) telling whether the event is going to be a paid entry and the projected expenses (in lakhs) for the event. The program should then display the input values as a formatted output.
+
+Input Format:
+First input is a string that corresponds to the name of the event. Assume the maximum length of the string as 50.
+Second input is a string that corresponds to the type of the event. Assume the maximum length of the string as 50.
+Third input is an integer that corresponds to the number of people expected for the event.
+Fourth input is a character that corresponds to Y/N telling whether the event is going to be a paid entry or not.
+Fifth input is a double value that corresponds to the projected expenses (in lakhs) for the event.
+
+Output Format:
+Output should display the event details as given in the sample output.
+All double values need to be displayed correct to 1 decimal place
+Refer sample input and output for formatting specifications.
+[All text in bold corresponds to input and rest corresponds to output.]
+
+Sample Input and Output:
+Enter the name of the event
+Food Fest 2017
+Enter the type of the event
+Public
+Enter the number of people expected
+5000
+Is it a paid entry? (Type Y or N)
+N
+Enter the projected expenses (in lakhs) for this event
+5.7
+Event Name : Food Fest 2017
+Event Type : Public
+Expected Count : 5000
+Paid Entry : N
+Projected Expense : 5.7L
+completed
+
+
+
+TRIANGLE TYPE
+
+Given the 3 angles of a triangle (in degrees), write a  program to determine whether it is a right triangle, isosceles triangle, right isosceles triangle or equilateral triangle.
+Input Format:
+
+Input consists of 3 lines. Each line consists of an integer.
+
+Output Format:
+
+Output consists of a single line. Refer sample output for the format.
+
+Sample Input 1:
+
+60
+
+60
+
+60
+
+
+Sample Output 1 :
+
+Triangle is equilateral
+
+
+Sample Input 2:
+
+90
+
+30
+
+60
+
+
+Sample Output 2:
+
+Triangle is right
+
+
+Sample Input 3:
+
+50
+
+50
+
+80 
+
+Sample Output 3:
+
+Triangle is isosceles
+
+
+Sample Input 4:
+
+45
+
+45
+
+90
+
+
+Sample Output 4:
+
+Triangle is right isosceles
+
+Sample Input 5:
+
+30
+
+50
+
+100
+
+
+Sample Output 5:
+
+Triangle is not special
+
+Sample Input 6:
+
+60
+
+50
+
+100
+
+Sample Output 6:
+
+Not a Triangle
+
+completed
+
+
+
+Write a program to generate numbers between the given range and print the numbers which are divisible by 2 and not divisible by 3 and 5.
+Input Format :
+
+Input consists of range values a and b (integers) . Always a<b.
+
+Output Format :
+
+Output consists of integers between the range.
+
+Refer Sample Input and Output for further details.
+
+ 
+
+Sample Input and Output  1 :
+
+[ All text of bold corresponds to Input and the rest output]
+
+Enter the Range :
+1
+40
+2 4 8 14 16 22 26 28 32 34 38
+Sample Input and Output  2 :
+
+Enter the Range :
+20
+80
+22 26 28 32 34 38 44 46 52 56 58 62 64 68 74 76
+completed
+
+Can you please help Mahirl in generating a n*n matrix with values following the pattern shown in the sample output?
+
+ 
+
+Input Format:
+
+The first line of the input consists of a single integer that corresponds to n.
+
+The second line of the input consists of an integer that corresponds to the row number of the element that needs to be printed.
+
+The third line of the input consists of an integer that corresponds to the column number of the element that needs to be printed.
+
+ 
+
+Assume that the row number and column number starts from 1.
+
+ 
+
+Output Format :
+Refer sample output. All values in a row are separated by a space. There is a trailing space at the end of each row.
+
+Sample Input 1 :
+
+5
+
+3
+
+2
+
+Sample Output 1:
+
+1 10 11 20 21
+
+2 9 12 19 22
+
+3 8 13 18 23
+
+4 7 14 17 24
+
+5 6 15 16 25
+
+ 
+
+8
+Sample Input 2 :
+
+6
+
+4
+
+5
+
+Sample Output 2:
+
+1 12 13 24 25 36
+
+2 11 14 23 26 35
+
+3 10 15 22 27 34
+
+4 9 16 21 28 33
+
+5 8 17 20 29 32
+
+6 7 18 19 30 31
+
+28
+
+
+
+
+
+SMS language or textese (also known as txt-speak, txtese, chatspeak, txt, txtspk, txtk, txto, texting language, txt lingo, SMSish, txtslang,or txt talk) is a term for the abbreviations and slang commonly used with mobile phone text messaging.
+Some of the abbreviations used are
+
+s for yes
+u for you
+2day for today
+y for why
+
+Many grandpa's have started sending SMSes to their grand children. But they are not familiar with the SMS lingo.
+Can you help them by writing a program that would convert a given text in proper English to SMS lingo? Consider only the 4 words listed above.
+Input Format:
+
+Input consists of a single string. Assume that the maximum length of the string is 200 and all letters are in lower-case.
+
+ 
+
+Output Format:
+
+Output consists of a single string.
+
+ 
+
+Sample Input 1:
+
+where were you yesterday?
+
+Sample Output 1:
+
+where were u sterday?
+
+ 
+
+Sample Input 2:
+
+why is today a working day for you?
+
+Sample Output 2:
+y is 2day a working day for u?
+
+
+
+You are given an array nums consisting of positive integers.
+
+Return the total frequencies of elements in nums such that those elements all have the maximum frequency.
+
+The frequency of an element is the number of occurrences of that element in the array.
+
+ 
+
+Example 1:
+
+Input: nums = [1,2,2,3,1,4]
+Output: 4
+Explanation: The elements 1 and 2 have a frequency of 2 which is the maximum frequency in the array.
+So the number of elements in the array with maximum frequency is 4.
+Example 2:
+
+Input: nums = {1,2,3,4,5}
+Output: 5
+Explanation: All elements of the array have a frequency of 1 which is the maximum.
+So the number of elements in the array with maximum frequency is 5.
+
